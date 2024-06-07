@@ -107,31 +107,31 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Abdelhadi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdelhadi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abdelhadi is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Abdelhadi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdelhadi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abdelhadi is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Abdelhadi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdelhadi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abdelhadi is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Abdelhadi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdelhadi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abdelhadi is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Abdelhadi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdelhadi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abdelhadi is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies',
   },
@@ -180,15 +180,15 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: 'Mobile App Dev - JSM Tech',
+    title: 'Mobile App Dev ',
     desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp2.svg',
   },
   {
     id: 3,
-    title: 'Freelance App Dev Project',
-    desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
+    title: 'Freelance Web Dev Project',
+    desc: 'Led the dev of a fullstack web app for a client, from initial concept to deployment on internet.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp3.svg',
   },
