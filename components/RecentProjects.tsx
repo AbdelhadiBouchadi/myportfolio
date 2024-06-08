@@ -4,6 +4,7 @@ import { projects } from '@/data';
 import React from 'react';
 import { PinContainer } from './ui/Pin';
 import { FaLocationArrow } from 'react-icons/fa6';
+import Link from 'next/link';
 
 const RecentProjects = () => {
   return (
@@ -14,11 +15,13 @@ const RecentProjects = () => {
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map((item) => (
-          <div
+          <Link
+            href={item.link}
+            target="_blank"
             className="lg:min-h-[32.5rem] flex items-center justify-center sm:h-[41rem] h-[32rem]  sm:w-[570px] w-[80vw]"
             key={item.id}
           >
-            <PinContainer title="visit link" href="https://twitter.com/">
+            <PinContainer title={item.link} href="https://twitter.com/">
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -70,7 +73,7 @@ const RecentProjects = () => {
                 </div>
               </div>
             </PinContainer>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
