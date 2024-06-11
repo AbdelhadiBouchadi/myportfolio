@@ -99,12 +99,12 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Animated Apple Iphone 3D Website',
-    des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-    img: '/p4.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-    link: '/ui.apple.com',
-    path: '/ui.yoom.com',
+    title: 'Animated 3D Portfolio Website',
+    des: 'An animated portfolio website prototype, combining Framer Motion animations and Three.js 3D effects..',
+    img: '/3d_thumbnail.png',
+    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
+    link: 'https://abdelhadev.netlify.app/',
+    path: '/3d-portfolio.com',
   },
 ];
 
