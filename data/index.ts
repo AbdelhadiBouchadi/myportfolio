@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: 'CaseCobra - Custom iPhone Cases',
     des: 'A custom iPhone cases builder E-commerce shop with some fancy features',
-    img: '/thumbnail.svg',
+    img: '/casecobra.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
     link: 'https://casecobra-phonecase.vercel.app/',
     path: '/casecobra.com',
