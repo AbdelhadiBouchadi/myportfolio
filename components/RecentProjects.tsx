@@ -21,7 +21,7 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] flex items-center justify-center sm:h-[41rem] h-[32rem]  sm:w-[570px] w-[80vw]"
             key={item.id}
           >
-            <PinContainer title={item.link} href="https://twitter.com/">
+            <PinContainer title={item.path} href="https://twitter.com/">
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
