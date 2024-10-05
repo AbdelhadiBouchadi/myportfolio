@@ -41,7 +41,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Abdelhadi, a Full Stack Developer based in Morocco.
+            Hi! I&apos;m Abdelhadi, a Full Stack Web Developer based in Morocco.
           </p>
 
           <a href="#about">

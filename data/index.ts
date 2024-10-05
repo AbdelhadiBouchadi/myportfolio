@@ -77,7 +77,7 @@ export const projects = [
     img: '/casecobra.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
     link: 'https://casecobra-phonecase.vercel.app/',
-    path: '/casecobra.com',
+    path: 'Casecobra',
   },
   {
     id: 2,
@@ -86,7 +86,7 @@ export const projects = [
     img: '/p2.svg',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
     link: '/ui.yoom.com',
-    path: '/ui.yoom.com',
+    path: 'Yoom',
   },
   {
     id: 3,
@@ -95,7 +95,7 @@ export const projects = [
     img: '/p3.svg',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
     link: '/ui.aiimg.com',
-    path: '/ui.yoom.com',
+    path: 'Imaginify',
   },
   {
     id: 4,
@@ -104,7 +104,7 @@ export const projects = [
     img: '/3d_thumbnail.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
     link: 'https://abdelhadev.netlify.app/',
-    path: '/3d-portfolio.com',
+    path: '3D_portfolio',
   },
 ];
 
@@ -186,13 +186,13 @@ export const workExperience = [
     id: 2,
     title: 'Mobile App Dev ',
     desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
-    className: 'md:col-span-2', // change to md:col-span-2
+    className: 'md:col-span-2',
     thumbnail: '/exp2.svg',
   },
   {
     id: 3,
     title: 'Freelance Web Dev Project',
-    desc: 'Led the dev of a fullstack web app for a client, from initial concept to deployment on internet.',
+    desc: 'Led the dev of many fullstack web applications for clients, from initial concept to deployment on internet.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp3.svg',
   },
