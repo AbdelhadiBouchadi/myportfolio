@@ -13,7 +13,7 @@ const RecentProjects = () => {
         A small selection of{' '}
         <span className="text-purple">my recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 2xl:gap-y-10 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-4 2xl:gap-y-20 mt-10">
         {projects.map((item) => (
           <Link
             href={item.link}
@@ -32,7 +32,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 rounded-md object-fill w-full h-full"
                 />
               </div>
 
