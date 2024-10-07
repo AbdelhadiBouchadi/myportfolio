@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from './provider';
+import ActiveSectionContextProvider from '@/context/active-section-context';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -27,7 +28,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <ActiveSectionContextProvider>
+            {children}
+          </ActiveSectionContextProvider>
         </ThemeProvider>
       </body>
     </html>
