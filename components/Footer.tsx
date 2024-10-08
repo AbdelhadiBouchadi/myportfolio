@@ -1,12 +1,21 @@
+'use client';
+
 import { FaLocationArrow } from 'react-icons/fa6';
 
 import { socialMedia } from '@/data';
 import MagicButton from './ui/MagicButton';
 import Link from 'next/link';
+import { useSectionInView } from '@/lib/hooks';
 
 const Footer = () => {
+  const { ref } = useSectionInView('Contact', 0.5);
+
   return (
-    <footer className="w-full pt-20 pb-10 md:mb-10 xl:mb-16" id="contact">
+    <footer
+      className="w-full pt-20 pb-10 md:mb-10 xl:mb-16"
+      id="contact"
+      ref={ref}
+    >
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           Ready to take{' '}

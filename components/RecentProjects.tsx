@@ -5,10 +5,13 @@ import React from 'react';
 import { PinContainer } from './ui/Pin';
 import { FaLocationArrow } from 'react-icons/fa6';
 import Link from 'next/link';
+import { useSectionInView } from '@/lib/hooks';
 
 const RecentProjects = () => {
+  const { ref } = useSectionInView('Projects', 0.2);
+
   return (
-    <div className="py-20" id="projects">
+    <div className="py-20" id="projects" ref={ref}>
       <h1 className="heading">
         A small selection of{' '}
         <span className="text-purple">my recent projects</span>

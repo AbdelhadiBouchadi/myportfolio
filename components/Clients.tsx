@@ -1,10 +1,15 @@
+'use client';
+
 import React from 'react';
 import { InfiniteMovingCards } from './ui/InfiniteCards';
 import { companies, testimonials } from '@/data';
+import { useSectionInView } from '@/lib/hooks';
 
 const Clients = () => {
+  const { ref } = useSectionInView('Testimonials', 0.5);
+
   return (
-    <section id="testimonials" className="py-20">
+    <section id="testimonials" className="py-20" ref={ref}>
       <h1 className="heading">
         Kind words from
         <span className="text-purple"> satisfied clients</span>

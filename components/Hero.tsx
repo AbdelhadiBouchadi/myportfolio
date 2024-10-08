@@ -1,3 +1,5 @@
+'use client';
+
 import { FaLocationArrow } from 'react-icons/fa6';
 import MagicButton from './ui/MagicButton';
 import { Spotlight } from './ui/Spotlight';
@@ -44,7 +46,7 @@ const Hero = () => {
             Hi! I&apos;m Abdelhadi, a Full Stack Web Developer based in Morocco.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

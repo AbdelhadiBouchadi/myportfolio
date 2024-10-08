@@ -7,6 +7,7 @@ import {
   useMotionValueEvent,
 } from 'framer-motion';
 import { cn } from '@/utils/cn';
+import { useActiveSectionContext } from '@/context/active-section-context';
 import Link from 'next/link';
 
 export const FloatingNav = ({
@@ -23,6 +24,9 @@ export const FloatingNav = ({
   const { scrollYProgress } = useScroll();
 
   const [visible, setVisible] = useState(false);
+
+  const { activeSection, setActiveSection, setTimeOfLastClick } =
+    useActiveSectionContext();
 
   useMotionValueEvent(scrollYProgress, 'change', (current) => {
     // Check if current is not undefined and is a number
@@ -65,10 +69,30 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              'relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500'
+              'relative text-neutral-50 items-center flex space-x-1 px-2 py-1 hover:text-neutral-300 w-full',
+              {
+                'text-gray-950': activeSection === navItem.name,
+              }
             )}
+            onClick={() => {
+              setActiveSection(navItem.name);
+              setTimeOfLastClick(Date.now());
+            }}
           >
-            <span className="text-sm !cursor-pointer">{navItem.name}</span>
+            <span className="text-sm text-center !cursor-pointer">
+              {navItem.name}
+            </span>
+            {activeSection === navItem.name && (
+              <motion.span
+                className="rounded-full absolute -inset-x-1 -z-10 bg-purple flex items-center justify-center w-full h-full"
+                layoutId="activeSection"
+                transition={{
+                  type: 'spring',
+                  stiffness: 380,
+                  damping: 30,
+                }}
+              ></motion.span>
+            )}
           </Link>
         ))}
       </motion.div>
