@@ -106,6 +106,15 @@ export const projects = [
     link: 'https://abdelhadev.netlify.app/',
     path: '3D_portfolio',
   },
+  {
+    id: 5,
+    title: 'Inventory Management Dashboard',
+    des: 'A fullstack inventory management dashboard, using next.js for the front-end and node.js for backend along with prisma ORM. Deployed using AWS EC2, S3 and RDS.  ',
+    img: '/inventory-management.jpeg',
+    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
+    link: 'https://edstockinventory.vercel.app/',
+    path: 'EdStock',
+  },
 ];
 
 export const testimonials = [
