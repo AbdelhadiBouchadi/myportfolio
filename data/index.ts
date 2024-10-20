@@ -104,7 +104,7 @@ export const projects = [
     img: '/3d_thumbnail.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
     link: 'https://abdelhadev.netlify.app/',
-    path: '3D_portfolio',
+    path: '3D Portfolio',
   },
   {
     id: 5,
@@ -113,7 +113,7 @@ export const projects = [
     img: '/inventory-management.jpeg',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
     link: 'https://edstockinventory.vercel.app/',
-    path: 'EdStock',
+    path: 'EdStock (coming soon)',
   },
 ];
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { IoCopyOutline } from 'react-icons/io5';
 
 import Lottie from 'react-lottie';
@@ -53,6 +53,7 @@ export const BentoGridItem = ({
   const rightLists = ['NodeJS', 'NextJS', 'MongoDB'];
 
   const [copied, setCopied] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const defaultOptions = {
     loop: copied,
@@ -63,10 +64,22 @@ export const BentoGridItem = ({
     },
   };
 
+  useEffect(() => {
+    if (copied) {
+      setIsPlaying(true);
+      const timer = setTimeout(() => {
+        setCopied(false);
+        setIsPlaying(false);
+      }, 3000); // Reset after 3 seconds
+      return () => clearTimeout(timer);
+    }
+  }, [copied]);
+
   const handleCopy = () => {
     const text = 'abdelhadibouchadi2@gmail.com';
-    navigator.clipboard.writeText(text);
-    setCopied(true);
+    navigator.clipboard.writeText(text).then(() => {
+      setCopied(true);
+    });
   };
 
   return (
@@ -100,7 +113,6 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              //   width={220}
               className="object-cover object-center w-full h-full"
             />
           )}
@@ -163,7 +175,13 @@ export const BentoGridItem = ({
                   copied ? 'block' : 'block'
                 }`}
               >
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie
+                  options={defaultOptions}
+                  height={200}
+                  width={400}
+                  isStopped={!isPlaying}
+                  isPaused={!isPlaying}
+                />
               </div>
 
               <MagicButton
