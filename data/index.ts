@@ -115,6 +115,15 @@ export const projects = [
     link: 'https://edstockinventory.vercel.app/',
     path: 'EdStock (coming soon)',
   },
+  {
+    id: 6,
+    title: 'Hospital Management System',
+    des: 'A fullstack hospital management system, to manage patients data , doctors and appointments. Nexj.js for both front-end and back-end , mongoDB and next-auth 5. ',
+    img: '/eyecare.png',
+    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
+    link: 'https://ophtachusm.vercel.app/',
+    path: 'OphtaCHUSM (Ongoing)',
+  },
 ];
 
 export const testimonials = [
