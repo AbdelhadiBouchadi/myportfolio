@@ -72,6 +72,24 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: 'FlowShop - Complete E-com Platform',
+    des: 'A complete e commerce platform using Next js 15, ReactQuery, Tailwindcss, Typescript, and wix API',
+    img: '/flowshop.png',
+    iconLists: ['/next.svg', '/re.svg', '/tail.svg', '/ts.svg', '/git.svg'],
+    link: 'https://flowshop-nine.vercel.app/',
+    path: 'Flow Shop',
+  },
+  {
+    id: 7,
+    title: 'Hospital Management System',
+    des: 'A fullstack hospital management system, to manage patients data , doctors and appointments. Nexj.js for both front-end and back-end , mongoDB with Prisma ORM and next-auth 5. ',
+    img: '/eyecare.png',
+    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
+    link: 'https://ophtachusm.vercel.app/',
+    path: 'OphtaCHUSM (Ongoing)',
+  },
+  {
+    id: 2,
     title: 'CaseCobra - Custom iPhone Cases',
     des: 'A custom iPhone cases builder E-commerce shop with some fancy features',
     img: '/casecobra.png',
@@ -80,7 +98,7 @@ export const projects = [
     path: 'Casecobra',
   },
   {
-    id: 2,
+    id: 3,
     title: 'CarePulse - A Healthcare Management System',
     des: 'A user and admin friendly patient management system that includes patients medical records and much more features. ',
     img: '/carepulse.png',
@@ -89,7 +107,7 @@ export const projects = [
     path: 'Carepulse',
   },
   {
-    id: 3,
+    id: 4,
     title: 'AI Image SaaS - Canva Application',
     des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
     img: '/p3.svg',
@@ -98,7 +116,7 @@ export const projects = [
     path: 'Imaginify',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Animated 3D Portfolio Website',
     des: 'An animated portfolio website prototype, combining Framer Motion animations and Three.js 3D effects..',
     img: '/3d_thumbnail.png',
@@ -107,22 +125,13 @@ export const projects = [
     path: '3D Portfolio',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Inventory Management Dashboard',
     des: 'A fullstack inventory management dashboard, using next.js for the front-end and node.js for backend along with prisma ORM. Deployed using AWS EC2, S3 and RDS.  ',
     img: '/inventory-management.jpeg',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
     link: 'https://edstockinventory.vercel.app/',
-    path: 'EdStock (coming soon)',
-  },
-  {
-    id: 6,
-    title: 'Hospital Management System',
-    des: 'A fullstack hospital management system, to manage patients data , doctors and appointments. Nexj.js for both front-end and back-end , mongoDB and next-auth 5. ',
-    img: '/eyecare.png',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
-    link: 'https://ophtachusm.vercel.app/',
-    path: 'OphtaCHUSM (Ongoing)',
+    path: 'EdStock (Upcoming)',
   },
 ];
 

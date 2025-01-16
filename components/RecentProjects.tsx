@@ -21,7 +21,7 @@ const RecentProjects = () => {
           <Link
             href={item.link}
             target="_blank"
-            className="lg:min-h-[32.5rem] flex items-center justify-center sm:h-[41rem] h-[32rem]  sm:w-[470px] 2xl:w-[570px] w-[80vw]"
+            className="lg:min-h-[32.5rem] flex items-center justify-center sm:h-[41rem] h-[32rem]  sm:w-[470px] 2xl:w-[570px] w-[80vw] group"
             key={item.id}
           >
             <PinContainer title={item.path} href="https://twitter.com/">
@@ -35,7 +35,16 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0 rounded-md object-fill w-full h-full"
+                  className="z-10 absolute bottom-0 rounded-xl object-fill h-full top-8 left-1/2 -translate-x-1/2 w-[28.25rem]  shadow-2xl shadow-muted-foreground  rotate-6 group-even:-rotate-6 transition-all duration-300
+        
+        
+        
+        group-hover:-rotate-0
+
+        
+        group-even:group-hover:rotate-0
+
+        group-even:right-[initial] "
                 />
               </div>
 
