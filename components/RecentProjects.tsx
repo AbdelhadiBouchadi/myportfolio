@@ -14,9 +14,9 @@ const RecentProjects = () => {
     <div className="py-20" id="projects" ref={ref}>
       <h1 className="heading">
         A small selection of{' '}
-        <span className="text-purple">my recent projects</span>
+        <span className="text-purple capitalize">my recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-4 2xl:gap-y-20 mt-10">
+      <div className="flex flex-wrap items-center  p-4 gap-x-24 gap-y-4 2xl:gap-y-16 mt-10">
         {projects.map((item) => (
           <Link
             href={item.link}
@@ -35,16 +35,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0 rounded-xl object-fill h-full top-8 left-1/2 -translate-x-1/2 w-[28.25rem]  shadow-2xl shadow-muted-foreground  rotate-6 group-even:-rotate-6 transition-all duration-300
-        
-        
-        
-        group-hover:-rotate-0
-
-        
-        group-even:group-hover:rotate-0
-
-        group-even:right-[initial] "
+                  className="z-10 absolute bottom-0 rounded-xl object-fill h-full top-8 left-1/2 -translate-x-1/2 w-[28.25rem]  shadow-2xl shadow-muted-foreground  rotate-6 group-even:-rotate-6 transition-all duration-300 group-hover:-rotate-0 group-even:group-hover:rotate-0 group-even:right-[initial]"
                 />
               </div>
 
@@ -53,7 +44,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm"
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
                 style={{
                   color: '#BEC1DD',
                   margin: '1vh 0',
