@@ -11,21 +11,21 @@ const RecentProjects = () => {
   const { ref } = useSectionInView('Projects', 0.2);
 
   return (
-    <div className="py-20" id="projects" ref={ref}>
+    <div className="py-20 w-full" id="projects" ref={ref}>
       <h1 className="heading">
         A small selection of{' '}
         <span className="text-purple capitalize">my recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center  p-4 gap-x-24 gap-y-4 2xl:gap-y-16 mt-10">
+      <div className="flex flex-wrap justify-between items-center  p-4 gap-y-4 2xl:gap-y-16 mt-10 w-full">
         {projects.map((item) => (
           <Link
             href={item.link}
             target="_blank"
-            className="lg:min-h-[32.5rem] flex items-center justify-center sm:h-[41rem] h-[32rem]  sm:w-[470px] 2xl:w-[570px] w-[80vw] group"
+            className="lg:min-h-[32.5rem] flex items-center justify-center sm:h-[41rem] h-[32rem]  sm:w-[470px] 2xl:w-[630px] w-[80vw] group"
             key={item.id}
           >
             <PinContainer title={item.path} href="https://twitter.com/">
-              <div className="relative flex items-center justify-center sm:w-[470px] 2xl:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-[470px] 2xl:w-[630px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: '#13162D' }}

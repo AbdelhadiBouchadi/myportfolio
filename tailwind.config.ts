@@ -160,6 +160,10 @@ const config = {
         scroll:
           'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite',
       },
+      maxWidth: {
+        '8xl': '90rem', // New custom max-width (1440px)
+        '9xl': '100rem', // New custom max-width (1600px)
+      },
     },
   },
   plugins: [

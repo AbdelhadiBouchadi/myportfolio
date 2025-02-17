@@ -69,9 +69,10 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              'relative text-neutral-50 items-center flex space-x-1 px-2 py-1 hover:text-neutral-300 w-full',
+              'relative text-neutral-50 items-center flex space-x-1 px-2 py-1 hover:text-neutral-300 w-full font-medium transition-all duration-300',
               {
-                'text-gray-950': activeSection === navItem.name,
+                'text-gray-950 hover:text-muted-foreground':
+                  activeSection === navItem.name,
               }
             )}
             onClick={() => {

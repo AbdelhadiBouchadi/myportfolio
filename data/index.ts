@@ -71,6 +71,15 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 7,
+    title: 'Hospital Management System',
+    des: 'A fullstack hospital management system, to manage patients data , doctors and appointments. Nexj.js for both front-end and back-end , mongoDB with Prisma ORM and next-auth 5. ',
+    img: '/eyecare.png',
+    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
+    link: 'https://ophtachusm.vercel.app/',
+    path: 'OphtaCHUSM',
+  },
+  {
     id: 1,
     title: 'FlowShop - Complete E-com Platform',
     des: 'A complete e commerce platform using Next js 15, ReactQuery, Tailwindcss, Typescript, and wix API',
@@ -79,15 +88,7 @@ export const projects = [
     link: 'https://flowshop-nine.vercel.app/',
     path: 'Flow Shop',
   },
-  {
-    id: 7,
-    title: 'Hospital Management System',
-    des: 'A fullstack hospital management system, to manage patients data , doctors and appointments. Nexj.js for both front-end and back-end , mongoDB with Prisma ORM and next-auth 5. ',
-    img: '/eyecare.png',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
-    link: 'https://ophtachusm.vercel.app/',
-    path: 'OphtaCHUSM (Ongoing)',
-  },
+
   {
     id: 2,
     title: 'CaseCobra - Custom iPhone Cases',
