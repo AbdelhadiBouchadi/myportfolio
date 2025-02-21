@@ -76,7 +76,7 @@ export const projects = [
     des: 'A fullstack hospital management system, to manage patients data , doctors and appointments. Nexj.js for both front-end and back-end , mongoDB with Prisma ORM and next-auth 5. ',
     img: '/eyecare.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
-    link: 'https://ophtachusm.vercel.app/',
+    link: 'https://ophtachusm-submain.vercel.app/',
     path: 'OphtaCHUSM',
   },
   {
