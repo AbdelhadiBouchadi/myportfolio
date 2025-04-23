@@ -139,33 +139,24 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Abdelhadi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdelhadi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abdelhadi is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      'Abdelhadi developed a complete Hospital Management System tailored for my ophthalmology practice. His ability to understand complex workflows and transform them into a smooth, intuitive experience was beyond impressive. His support and dedication throughout the process made everything feel effortless. Truly grateful to have had him on board.',
+    name: 'Dr. Anas Dalouhamouch',
+    title: 'Ophthalmologist, CHU Souss Massa',
+    img: '/testimonials/chu.png',
   },
   {
     quote:
-      "Collaborating with Abdelhadi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdelhadi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abdelhadi is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      "Working with Abdelhadi on our music festival's website was an incredible journey. He built the platform and the back office from scratch, allowing us to manage everything ourselves with ease. More than a developer, he's been a reliable friend, and I'm genuinely thankful for his talent and commitment.",
+    name: 'Mohammed Bijddiguen',
+    title: 'Manager, Dérive Casablancaise',
+    img: '/testimonials/derive.webp',
   },
   {
     quote:
-      "Collaborating with Abdelhadi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdelhadi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abdelhadi is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Abdelhadi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdelhadi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abdelhadi is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Abdelhadi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdelhadi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abdelhadi is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      'My dental portfolio website is exactly how I envisioned it, thanks to Abdelhadi. He was meticulous, fast, and super receptive to every little detail I cared about. I’m proud of what we built together, and amazed by his capability of understanding exactly my needs. I highly recommend him to anyone looking for a talented developer.',
+    name: 'Dr. Marouane Bouchadi',
+    title: 'Dentist, Agadir',
+    img: '/testimonials/marouane.jpg',
   },
 ];
 
