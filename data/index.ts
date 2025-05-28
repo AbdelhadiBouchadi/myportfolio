@@ -82,6 +82,15 @@ export const projects = [
   {
     id: 1,
     title: 'FlowShop - Complete E-com Platform',
+    des: 'A luxury-focused website with a strong emphasis on interactivity and visual flow using Next.js 15 and GSAP along with prismic.io',
+    img: '/cote-royale.png',
+    iconLists: ['/next.svg', '/re.svg', '/tail.svg', '/ts.svg', '/git.svg'],
+    link: 'https://cote-royale-ecru.vercel.app/',
+    path: 'Côte Royale',
+  },
+  {
+    id: 8,
+    title: 'Côte Royale - Luxury Brand Website',
     des: 'A complete e commerce platform using Next js 15, ReactQuery, Tailwindcss, Typescript, and wix API',
     img: '/flowshop.png',
     iconLists: ['/next.svg', '/re.svg', '/tail.svg', '/ts.svg', '/git.svg'],
