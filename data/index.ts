@@ -80,6 +80,15 @@ export const projects = [
     path: 'OphtaCHUSM',
   },
   {
+    id: 9,
+    title: 'MeetAI - an AI Powered Meeting Plateform',
+    des: ' An AI-powered meeting plateform that transcribes, summarizes, and allows meetings in real-time with an AI agent. Built with Next.js 15, tRPC, DrizzleORM, and OpenAI API',
+    img: '/meetai.png',
+    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
+    link: 'https://meetai-omega.vercel.app/',
+    path: 'MeetAI',
+  },
+  {
     id: 1,
     title: 'FlowShop - Complete E-com Platform',
     des: 'A luxury-focused website with a strong emphasis on interactivity and visual flow using Next.js 15 and GSAP along with prismic.io',
@@ -133,15 +142,6 @@ export const projects = [
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
     link: 'https://abdelhadev.netlify.app/',
     path: '3D Portfolio',
-  },
-  {
-    id: 6,
-    title: 'Inventory Management Dashboard',
-    des: 'A fullstack inventory management dashboard, using next.js for the front-end and node.js for backend along with prisma ORM. Deployed using AWS EC2, S3 and RDS.  ',
-    img: '/inventory-management.jpeg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg', '/dock.svg'],
-    link: 'https://edstockinventory.vercel.app/',
-    path: 'EdStock (Upcoming)',
   },
 ];
 
